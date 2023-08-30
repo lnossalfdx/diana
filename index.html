@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diana</title>
+<title>Cadastre-se para ser o amor da minha vida</title>
 <style>
   body {
     font-family: Arial, sans-serif;
@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
   }
 
@@ -72,6 +73,12 @@
     text-align: center;
     color: #ec87bf;
   }
+
+  footer {
+    margin-top: 20px;
+    color: rgba(236, 135, 191, 0.5);
+    text-align: center;
+  }
 </style>
 </head>
 <body>
@@ -88,6 +95,7 @@
     </form>
     <p id="confirmation-message"></p>
   </div>
+  <footer>De Logan para Diana</footer>
   <script>
     document.getElementById("registration-form").addEventListener("submit", function(event) {
       event.preventDefault();
